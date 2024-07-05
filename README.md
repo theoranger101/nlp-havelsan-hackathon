@@ -1,4 +1,4 @@
-1. Çok-sınıflı Metin Sınıflandırma
+# 1. Çok-sınıflı Metin Sınıflandırma
 İlk olarak elimizdeki verileri ön işlemeden geçirdik. Klasör düzenindeki dosyaları
 kategori kategori okuyacak şekilde sistemi yazdık. Ardından bu klasörlerin içindeki
 metinlerdeki büyük harfleri küçüğe çevirip tokenlerine (kelime gruplarına) ayırdık.
@@ -12,10 +12,12 @@ kullandık. Ayrıca birkaç parametre arasından en iyi değerleri vereni seçeb
 Logistic Regression’ı Grid Search ile çalıştırdık. Ardından en iyi tahminleri veren
 Logistic Regression değerlerini evaluate ettik.
 Sonuç olarak en iyi değerleri
+```
 LogisticRegression(C=100, solver='lbfgs', max_iter=1000)
+```
 bu parametrelerle elde ettik.
 
-3. Anlamsal Arama
+# 2. Anlamsal Arama
 Bu problem için de aynı şekilde veri okumada kolaylık sağlaması için büyük harfleri
 küçüğe çevirdiğimiz basit bir ön işleme ile başladık. Bir önceki problemde
 kullandığımız TF-IDF Anlamsal arama üzerine ChatGPT ve internetten yardım
